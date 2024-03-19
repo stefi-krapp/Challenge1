@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <link rel ="stylesheet" href="style.css" >
+  <script type="text/javascript" src="app.js"></script>
+  <meta name="viewport" content="width=device-width">
+  <metatag viewport> </metatag>
+  
+</head>
+ 
+
+
+<body>
+    <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50">
+    <source src="/url/https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZtdXVtZzF5cWZyOThjaWtkNTlzbG41YjdhdWlkanE5aGFrdGx2MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sxwk9hGlsULcYm6hDX/giphy.gif" type="video/mp4">
+    </video>
+    <div class="container"></div>
+    <div class="logo">
+    <img class="logoImg" src="Logo.png">
+    </div>
+    <div h2 class="titulo">Encriptador</h2>
+    </div>
+<main>
+
+  
+<textarea id="textoOriginal" textarea placeholder="Ingresa el texto" rows="4" cols="50"></textarea><br><br>
+<button onclick="encriptar()" id="encriptar">Encriptar</button>
+<button onclick="desencriptar()" id="desencriptar">Desencriptar</button><br><br>
+<textarea id="resultado" rows="4" cols="50" readonly></textarea><br><br>
+<button onclick="copiar()" id="copiar">Copiar</button>
+ 
+    <footer class="footer">Challenge Alura 2024 - 
+      Estefania Krapp</footer>
+
+  </main>
+  </body>
+  </html>
