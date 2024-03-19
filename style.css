@@ -1,0 +1,172 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3hhNWpqb2ZybWphMG92MHoyYmU2ejJzbmdzeWV3Zm1jcGNzemo5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wIIxuQbbmnJEjEnoXN/giphy.gif);
+    background-attachment:inherit;
+    background-size:cover;
+    align-items:inherit;
+  
+  }
+  
+  .titulo{
+    width: auto;
+    color:transparent;
+    text-align:center;
+    margin-right: 195px;
+    margin-bottom: -170px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight:bold;
+    float:none;
+    padding-inline-start: 70px;
+    margin-top: -30px;
+    font-style:initial;
+    background-image:url(https://media.giphy.com/media/1wQb5UoXbNQjeNbFww/giphy.gif);
+    background-size:contain;
+    background-position-y:center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    
+  }
+  
+  
+  .logo{
+    margin: -25px;
+    margin-top: -150px;
+    float: left;
+    background: transparent;
+  
+  }
+  
+
+  
+  #textoOriginal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    width:790px;
+    height: 60px;
+    background-color: #FFD1DC;
+    flex: none;
+    order: 3;
+    flex-grow: 1;
+    margin-top: 180px;
+    margin-left: 220px;
+  }
+ 
+  .logoImg{
+    margin-top: 1%;
+    margin-left: 0%;
+    float:inherit;
+    
+  }
+  
+
+
+  .aclaracion{
+    color:black;
+    font-size: 13px;
+    margin: 10px;
+    margin-left: 225px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+  }
+  #resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 10px;
+    width:788px;
+    height: 80px;
+    background-color: #FFD1DC;
+    flex: none;
+    order: 3;
+    flex-grow: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 230px;
+  
+  }
+  
+  #encriptar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+    margin-top: -10px;
+    padding: 10px;
+    width: 10%;
+    height: 60%;
+    border-radius: 100px;
+    margin-left: 35%;
+    background-size:cover;
+    background-image: url(https://media.giphy.com/media/1wQb5UoXbNQjeNbFww/giphy.gif);
+    background-position-y:center;
+    text-align: center;
+    font-size:16px;
+    font-weight:lighter;
+    color: black;
+  }
+
+  #desencriptar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 10%;
+    height: 60%;
+    margin-top: -55px;
+    margin-left: 50%;
+    color: black;
+    border-radius: 100px;
+    background-image: url(https://media.giphy.com/media/1wQb5UoXbNQjeNbFww/giphy.gif);
+    background-size: cover;
+    background-position-y:center;
+    text-align: center;
+    font-size:16px;
+    font-weight:lighter;
+
+  } 
+
+  #copiar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 10%;
+    height: 60%;
+    margin-top: -20px;
+    margin-left: 42.5%;
+    color: black;
+    border-radius: 100px;
+    background-image: url(https://media.giphy.com/media/1wQb5UoXbNQjeNbFww/giphy.gif);
+    background-size: cover;
+    background-position-y:center;
+    text-align: center;
+    font-size:16px;
+    font-weight:lighter;
+  }
+  
+  .footer{
+   
+    text-align: end;
+    margin-right: 15px;
+    color:black;
+    font-size: 13px;
+  }
+  
+  @media screen and (max-width:480px) {
+    .textooriginal, .encriptar, .desencriptar, .resultado, #titulo, #copiar{
+      width: auto;
+    }
+
+   
+
+  }
